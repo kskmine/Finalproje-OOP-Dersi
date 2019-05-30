@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="İÇECEKLER"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="189.5dp"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:textStyle="bold"
+		android:textColor="@android:color/background_dark"
+		android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
+	<ImageView
+		android:src="@drawable/kutu_cola"
+		android:layout_width="130.5dp"
+		android:layout_height="117.5dp"
+		android:layout_below="@id/textView1"
+		android:id="@+id/ımageView1"
+		android:layout_marginTop="32.0dp"
+		android:layout_marginLeft="30.0dp" />
+	<TextView
+		android:text="Kutu Cola"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/ımageView1"
+		android:id="@+id/textView2" 
+		android:layout_marginLeft="40.0dp" />
+	<Button
+		android:text="5.99"
+		android:layout_width="131.5dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30.0dp"
+		android:textSize="17.0dp"
+		android:layout_below="@+id/textView2"
+		android:id="@+id/button1" />
+	<ImageView
+		android:src="@drawable/kutu_sprite"
+		android:layout_width="130.5dp"
+		android:layout_height="117.5dp"
+		android:layout_marginLeft="50.0dp"
+		android:textSize="17.0dp"
+		android:layout_marginTop="80.0dp"
+		android:layout_toRightOf="@id/ımageView1"
+		android:id="@+id/ımageView2" />
+	<TextView
+		android:text="Kutu Sprite"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="85.0dp"
+		android:layout_below="@+id/ımageView2"
+		android:layout_toRightOf="@+id/textView2"
+		android:id="@+id/textView3" />
+	<Button
+		android:text="5.99"
+		android:layout_toRightOf="@id/button1"
+		android:layout_below="@+id/textView3"
+		android:layout_width="131.5dp"
+		android:textSize="17.0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50.0dp"
+		android:id="@+id/button2" />
+	<ImageView
+		android:src="@drawable/coco_cola"
+		android:layout_width="130.5dp"
+		android:layout_height="117.5dp"
+		android:layout_below="@id/button1"
+		android:layout_marginLeft="130.0dp"
+		android:layout_marginTop="10.0dp"
+		android:id="@+id/ımageView3" />
+	<TextView
+		android:text="1 Lt Coca cola"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/ımageView3"
+		android:layout_marginLeft="120.0dp"
+		android:id="@+id/textView4" />
+	<Button
+		android:text="6.99"
+		android:layout_width="131.5dp"
+		android:layout_marginLeft="125.0dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView4"
+		android:textSize="17.0dp"
+		android:id="@+id/button3" />
+	<Button
+		android:text="sepete git"
+		android:layout_width="362.5dp"
+		android:layout_height="49.0dp"
+		android:layout_marginTop="490dp"
+		android:layout_marginLeft="10.0dp"
+		android:background="#ff76ff03"
+		android:textSize="17.0dp"
+		android:id="@+id/button4" />
+
+
+</RelativeLayout>

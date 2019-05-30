@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="PİZZALAR"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="173.5dp"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:textColor="@android:color/background_dark"
+		android:textStyle="bold"
+		android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
+	<ImageView
+		android:src="@drawable/klasik"
+		android:layout_width="157.0dp"
+		android:layout_height="117.5dp"
+		android:layout_below="@id/textView1"
+		android:id="@+id/ımage_klasik"
+		android:layout_marginTop="32.0dp"
+		android:layout_marginLeft="18.0dp" />
+	<TextView
+		android:text="Klasik Pizza"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/ımage_klasik"
+		android:id="@+id/textView3"
+		android:layout_marginLeft="35.0dp" />
+	<Button
+		android:text="48.99"
+		android:layout_width="131.5dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView3"
+		android:id="@+id/button1"
+		android:layout_marginLeft="30.0dp"
+		android:textSize="17.0dp" />
+	<ImageView
+		android:src="@drawable/sosyal"
+		android:layout_width="127.5dp"
+		android:layout_height="117.5dp"
+		android:layout_toRightOf="@+id/ımage_klasik"
+		android:id="@+id/ımage_sosyal"
+		android:layout_marginLeft="40.0dp"
+		android:textSize="17.0dp"
+		android:layout_marginTop="80.0dp"
+		android:layout_marginBottom="0.0dp" />
+	<TextView
+		android:text="Sosyal Pizza"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/ımage_sosyal"
+		android:id="@+id/textView4"
+		android:layout_toRightOf="@+id/textView3"
+		android:layout_marginLeft="70.0dp" />
+	<Button
+		android:text="50.99"
+		android:layout_width="131.5dp"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/button1"
+		android:id="@+id/button2"
+		android:layout_below="@+id/textView4"
+		android:layout_marginLeft="50.0dp"
+		android:textSize="17.0dp" />
+	<ImageView
+		android:src="@drawable/sosyal"
+		android:layout_width="129.0dp"
+		android:layout_height="117.5dp"
+		android:layout_below="@+id/button1"
+		android:id="@+id/ımageView1"
+		android:layout_marginLeft="130.0dp"
+		android:layout_marginTop="10.0dp" />
+	<TextView
+		android:text="Konyalım"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/ımageView1"
+		android:id="@+id/textView5"
+		android:layout_marginLeft="140.0dp" />
+	<Button
+		android:text="58.99"
+		android:layout_width="131.5dp"
+		android:layout_marginLeft="125.0dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView5"
+		android:id="@+id/button3"
+		android:textSize="17.0dp" />
+	<Button
+		android:text="sepete git"
+		android:layout_width="362.5dp"
+		android:layout_height="49.0dp"
+		android:id="@+id/button4"
+		android:layout_marginTop="490dp"
+		android:layout_marginLeft="10.0dp"
+		android:background="#ff76ff03"
+		android:textSize="17.0dp" />
+
+	
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+		android:src="@drawable/amblem"
+		android:minWidth="40px"
+		android:minHeight="40px"
+		android:layout_width="180.0dp"
+		android:layout_height="100.0dp"
+		android:layout_marginLeft="90.0dp"
+		android:id="@+id/ımageView1"/>
+	<TextView
+		android:text="Adres Adı"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="270.0dp"
+		android:layout_height="30.0dp"
+		android:layout_marginRight="77.0dp"
+		android:layout_marginLeft="1.0dp"
+		android:layout_marginTop="0.0dp"
+		android:layout_below="@id/ımageView1"
+		android:id="@+id/textView1"
+		android:textStyle="bold"  />
+	<EditText
+		android:layout_width="242.5dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView1"
+		android:id="@+id/editText1" />
+	<TextView
+		android:text="Telefon:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="270.0dp"
+		android:layout_height="30.0dp"
+		android:layout_marginRight="77.0dp"
+		android:layout_marginLeft="1.0dp"
+		android:layout_marginTop="10.0dp"
+		android:id="@+id/textView3"
+		android:textStyle="bold" />
+	<EditText
+		android:inputType="phone"
+		android:layout_width="234.5dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView3"
+		android:id="@+id/editText2"  />
+	<TextView
+		android:text="Adres:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="270.0dp"
+		android:layout_height="30.0dp"
+		android:layout_marginRight="77.0dp"
+		android:layout_marginLeft="1.0dp"
+		android:layout_marginTop="0.0dp"
+		android:layout_below="@id/textView3"
+		android:id="@+id/textView5"
+		android:textStyle="bold" />
+	<EditText
+		android:layout_width="238.5dp"
+		android:layout_height="wrap_content"
+		android:text="yalova"
+		android:layout_below="@id/textView5"
+		android:id="@+id/editText3" />
+	<Button
+		android:text="Ekle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10.0dp"
+		android:id="@+id/button1"
+		android:textColor="@android:color/background_light"
+		android:textStyle="bold"
+		android:background="#ff76ff03" />
+
+
+</LinearLayout>

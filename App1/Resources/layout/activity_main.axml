@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+		android:src="@drawable/ana_amblem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/ımageView1" />
+	<TextView
+		android:text="  Pizzanı Nasıl 
+		Almak İstersin?"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="230.0dp"
+		android:layout_height="66.0dp"
+		android:layout_below="@+id/resim"
+		android:id="@+id/Text"
+		android:layout_marginRight="77.0dp"
+		android:layout_marginLeft="110.0dp"
+		android:layout_marginTop="150.0dp"
+		android:textStyle="bold" />
+	<ImageView
+		android:src="@drawable/motor"
+		android:layout_width="220.0dp"
+		android:layout_height="60.0dp"
+		android:layout_below="@+id/Text"
+		android:id="@+id/adresımage1"
+		android:layout_marginTop="90.0dp"
+		android:layout_marginLeft="-50.0dp"  />
+	<Button
+		android:layout_width="220.0dp"
+		android:layout_height="60.0dp"
+		android:layout_below="@+id/Text"
+		android:id="@+id/adres_button1"
+		android:layout_marginTop="90.0dp"
+		android:layout_marginLeft="100.0dp"
+		android:text="Adresime Teslim Edilsin" />
+	<ImageView
+		android:src="@drawable/sube_icon"
+		android:layout_width="93.0dp"
+		android:layout_height="60.0dp"
+		android:id="@+id/adresımage2"
+		android:layout_below="@+id/adres_button1"
+		android:layout_marginTop="25.0dp"
+		android:layout_marginLeft="13.0dp" />
+	<Button
+		android:text="Şubeye Gelip Alacağım"
+		android:layout_width="220.0dp"
+		android:layout_height="60.0dp"
+		android:layout_below="@+id/adres_button1"
+		android:id="@+id/sube_button"
+		android:layout_marginLeft="100.0dp"
+		android:layout_marginTop="25.0dp" />
+</RelativeLayout>
